@@ -1,0 +1,43 @@
+{
+  "ckpt": "runs/p1_pong_s0/ckpt/model_0100000.pt",
+  "seed": 2024,
+  "steps": 7570,
+  "final_score_agent": 20,
+  "final_score_cpu": 21,
+  "snapshot_steps": [
+    0,
+    1514,
+    3028,
+    4542,
+    6056,
+    7570
+  ],
+  "snapshot_scores": [
+    [
+      0,
+      0
+    ],
+    [
+      1,
+      8
+    ],
+    [
+      6,
+      12
+    ],
+    [
+      9,
+      16
+    ],
+    [
+      13,
+      19
+    ],
+    [
+      20,
+      21
+    ]
+  ],
+  "wins_dreamer": 3,
+  "episodes_dreamer": 30
+}

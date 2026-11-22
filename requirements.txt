@@ -1,0 +1,5 @@
+torch>=2.5
+numpy
+pillow
+ale-py==0.12.1
+matplotlib

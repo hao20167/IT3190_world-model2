@@ -1,0 +1,161 @@
+{
+  "policy": "random",
+  "seed": 123,
+  "episodes": 30,
+  "mean": -20.333333333333332,
+  "std": 0.7888106377466155,
+  "min": -21.0,
+  "max": -18.0,
+  "results": [
+    {
+      "return": -20.0,
+      "length": 897,
+      "frames": 3586
+    },
+    {
+      "return": -20.0,
+      "length": 879,
+      "frames": 3514
+    },
+    {
+      "return": -20.0,
+      "length": 947,
+      "frames": 3786
+    },
+    {
+      "return": -21.0,
+      "length": 845,
+      "frames": 3380
+    },
+    {
+      "return": -19.0,
+      "length": 1084,
+      "frames": 4336
+    },
+    {
+      "return": -19.0,
+      "length": 981,
+      "frames": 3921
+    },
+    {
+      "return": -21.0,
+      "length": 883,
+      "frames": 3531
+    },
+    {
+      "return": -21.0,
+      "length": 822,
+      "frames": 3286
+    },
+    {
+      "return": -21.0,
+      "length": 926,
+      "frames": 3702
+    },
+    {
+      "return": -19.0,
+      "length": 994,
+      "frames": 3975
+    },
+    {
+      "return": -21.0,
+      "length": 878,
+      "frames": 3511
+    },
+    {
+      "return": -21.0,
+      "length": 840,
+      "frames": 3358
+    },
+    {
+      "return": -20.0,
+      "length": 993,
+      "frames": 3970
+    },
+    {
+      "return": -20.0,
+      "length": 927,
+      "frames": 3706
+    },
+    {
+      "return": -21.0,
+      "length": 884,
+      "frames": 3536
+    },
+    {
+      "return": -21.0,
+      "length": 921,
+      "frames": 3684
+    },
+    {
+      "return": -20.0,
+      "length": 924,
+      "frames": 3694
+    },
+    {
+      "return": -20.0,
+      "length": 850,
+      "frames": 3399
+    },
+    {
+      "return": -21.0,
+      "length": 955,
+      "frames": 3818
+    },
+    {
+      "return": -20.0,
+      "length": 906,
+      "frames": 3622
+    },
+    {
+      "return": -18.0,
+      "length": 1320,
+      "frames": 5279
+    },
+    {
+      "return": -21.0,
+      "length": 941,
+      "frames": 3762
+    },
+    {
+      "return": -20.0,
+      "length": 836,
+      "frames": 3343
+    },
+    {
+      "return": -21.0,
+      "length": 885,
+      "frames": 3537
+    },
+    {
+      "return": -21.0,
+      "length": 896,
+      "frames": 3583
+    },
+    {
+      "return": -21.0,
+      "length": 848,
+      "frames": 3392
+    },
+    {
+      "return": -20.0,
+      "length": 869,
+      "frames": 3473
+    },
+    {
+      "return": -21.0,
+      "length": 928,
+      "frames": 3711
+    },
+    {
+      "return": -20.0,
+      "length": 955,
+      "frames": 3817
+    },
+    {
+      "return": -21.0,
+      "length": 791,
+      "frames": 3164
+    }
+  ]
+}

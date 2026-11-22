@@ -1,0 +1,10 @@
+{
+  "ckpt": "runs/p1_pong_s0/ckpt/model_0100000.pt",
+  "episode_return": -6.0,
+  "episode_steps": 5720,
+  "segment_start": 100,
+  "context_steps": 5,
+  "openloop_steps": 15,
+  "mse_posterior": 7.980679506279636e-05,
+  "mse_openloop": 0.00014041357624204368
+}

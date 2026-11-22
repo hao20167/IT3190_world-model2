@@ -1,0 +1,14 @@
+{
+  "parts": {
+    "encoder": 691104,
+    "rssm": 5779968,
+    "decoder": 6986403,
+    "reward_head": 918783,
+    "cont_head": 788481,
+    "actor": 1318406,
+    "critic": 1446143
+  },
+  "trainable": 17929288,
+  "slow_critic": 1446143,
+  "world_model": 15164739
+}

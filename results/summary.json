@@ -1,0 +1,177 @@
+{
+  "table": [
+    {
+      "name": "Random",
+      "train_steps": 0,
+      "seeds": "-",
+      "episodes": 30,
+      "mean": -20.333333333333332,
+      "std": 0.7888106377466155,
+      "min": -21.0,
+      "max": -18.0
+    },
+    {
+      "name": "Dreamer (final checkpoint)",
+      "train_steps": 100000,
+      "seeds": 1,
+      "episodes": 30,
+      "mean": -7.433333333333334,
+      "std": 6.064560073813178,
+      "min": -16.0,
+      "max": 9.0
+    }
+  ],
+  "eval_curve": [
+    {
+      "step": 0,
+      "mean": -20.4,
+      "std": 0.66332495807108,
+      "episodes": 10
+    },
+    {
+      "step": 10000,
+      "mean": -20.3,
+      "std": 0.6403124237432849,
+      "episodes": 10
+    },
+    {
+      "step": 20000,
+      "mean": -20.4,
+      "std": 0.4898979485566356,
+      "episodes": 10
+    },
+    {
+      "step": 30000,
+      "mean": -20.8,
+      "std": 0.4,
+      "episodes": 10
+    },
+    {
+      "step": 40000,
+      "mean": -20.3,
+      "std": 0.6403124237432849,
+      "episodes": 10
+    },
+    {
+      "step": 50000,
+      "mean": -15.1,
+      "std": 2.1656407827707715,
+      "episodes": 10
+    },
+    {
+      "step": 60000,
+      "mean": -18.8,
+      "std": 1.0770329614269007,
+      "episodes": 10
+    },
+    {
+      "step": 70000,
+      "mean": -16.7,
+      "std": 2.147091055358389,
+      "episodes": 10
+    },
+    {
+      "step": 80000,
+      "mean": -12.6,
+      "std": 3.583294573433784,
+      "episodes": 10
+    },
+    {
+      "step": 90000,
+      "mean": -9.7,
+      "std": 5.883026432033091,
+      "episodes": 10
+    },
+    {
+      "step": 100000,
+      "mean": 0.6,
+      "std": 7.017121917139534,
+      "episodes": 10
+    }
+  ],
+  "best_eval": {
+    "step": 100000,
+    "frames": 400000,
+    "updates": 24750,
+    "eval_seconds": 244.34968256950378,
+    "returns": [
+      2.0,
+      3.0,
+      -4.0,
+      -3.0,
+      8.0,
+      3.0,
+      -11.0,
+      8.0,
+      10.0,
+      -10.0
+    ],
+    "lengths": [
+      6185,
+      6267,
+      6010,
+      6281,
+      4450,
+      6409,
+      6002,
+      6552,
+      5477,
+      6130
+    ],
+    "episodes": 10,
+    "mean": 0.6,
+    "std": 7.017121917139534,
+    "min": -11.0,
+    "max": 10.0
+  },
+  "train": {
+    "agent_steps": 100000,
+    "frames": 400000,
+    "updates": 24750,
+    "train_episodes": 68,
+    "wall_seconds": 8957.211510658264,
+    "eval_seconds_total": 1124.1679768562317
+  },
+  "config": {
+    "game": "pong",
+    "size": 64,
+    "repeat": 4,
+    "noops": 30,
+    "max_frames": 108000,
+    "seed": 0,
+    "steps": 100000,
+    "prefill": 1000,
+    "train_ratio": 256,
+    "batch": 16,
+    "seq": 64,
+    "eval_every": 10000,
+    "eval_episodes": 10,
+    "save_every": 10000,
+    "log_every": 1000,
+    "logdir": "runs/p1_pong_s0",
+    "device": "auto",
+    "amp": false,
+    "depth": 32,
+    "deter": 512,
+    "hidden": 512,
+    "stoch": 32,
+    "classes": 32,
+    "units": 512,
+    "bins": 255,
+    "unimix": 0.01,
+    "scale_dyn": 1.0,
+    "scale_rep": 0.1,
+    "free_nats": 1.0,
+    "horizon": 15,
+    "gamma": 0.997,
+    "lam": 0.95,
+    "entropy": 0.0003,
+    "slow_rate": 0.02,
+    "slow_reg": 1.0,
+    "ret_rate": 0.01,
+    "lr_model": 0.0001,
+    "lr_actor": 3e-05,
+    "lr_critic": 3e-05,
+    "grad_clip": 100.0
+  }
+}

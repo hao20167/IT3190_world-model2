@@ -1,0 +1,38 @@
+{
+  "seed": 11,
+  "show": [
+    300
+  ],
+  "rows": [
+    {
+      "ckpt": "runs/p1_pong_s0/ckpt/model_0000000.pt",
+      "step": 0,
+      "mse": 0.23189772368825493
+    },
+    {
+      "ckpt": "runs/p1_pong_s0/ckpt/model_0010000.pt",
+      "step": 10000,
+      "mse": 0.00038711990655637256
+    },
+    {
+      "ckpt": "runs/p1_pong_s0/ckpt/model_0020000.pt",
+      "step": 20000,
+      "mse": 0.00028512158284473916
+    },
+    {
+      "ckpt": "runs/p1_pong_s0/ckpt/model_0040000.pt",
+      "step": 40000,
+      "mse": 0.00010225080260096276
+    },
+    {
+      "ckpt": "runs/p1_pong_s0/ckpt/model_0060000.pt",
+      "step": 60000,
+      "mse": 6.604481987596919e-05
+    },
+    {
+      "ckpt": "runs/p1_pong_s0/ckpt/model_0100000.pt",
+      "step": 100000,
+      "mse": 4.6306565033080213e-05
+    }
+  ]
+}

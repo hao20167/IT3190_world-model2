@@ -1,0 +1,163 @@
+{
+  "policy": "dreamer",
+  "ckpt": "runs/p1_pong_s0/ckpt/model_0100000.pt",
+  "train_step": 100000,
+  "seed": 123,
+  "episodes": 30,
+  "mean": -7.433333333333334,
+  "std": 6.064560073813178,
+  "min": -16.0,
+  "max": 9.0,
+  "results": [
+    {
+      "return": -14.0,
+      "length": 4435,
+      "frames": 17740
+    },
+    {
+      "return": -8.0,
+      "length": 4882,
+      "frames": 19527
+    },
+    {
+      "return": -15.0,
+      "length": 4350,
+      "frames": 17399
+    },
+    {
+      "return": 9.0,
+      "length": 5925,
+      "frames": 23700
+    },
+    {
+      "return": -6.0,
+      "length": 5333,
+      "frames": 21330
+    },
+    {
+      "return": -15.0,
+      "length": 4978,
+      "frames": 19910
+    },
+    {
+      "return": -13.0,
+      "length": 4521,
+      "frames": 18084
+    },
+    {
+      "return": -11.0,
+      "length": 5157,
+      "frames": 20628
+    },
+    {
+      "return": -6.0,
+      "length": 8332,
+      "frames": 33327
+    },
+    {
+      "return": -6.0,
+      "length": 5925,
+      "frames": 23697
+    },
+    {
+      "return": -15.0,
+      "length": 4637,
+      "frames": 18547
+    },
+    {
+      "return": -16.0,
+      "length": 4130,
+      "frames": 16520
+    },
+    {
+      "return": -9.0,
+      "length": 5774,
+      "frames": 23096
+    },
+    {
+      "return": -12.0,
+      "length": 6194,
+      "frames": 24775
+    },
+    {
+      "return": -12.0,
+      "length": 5605,
+      "frames": 22420
+    },
+    {
+      "return": -3.0,
+      "length": 6951,
+      "frames": 27802
+    },
+    {
+      "return": -7.0,
+      "length": 6657,
+      "frames": 26627
+    },
+    {
+      "return": -4.0,
+      "length": 6691,
+      "frames": 26761
+    },
+    {
+      "return": -9.0,
+      "length": 6015,
+      "frames": 24059
+    },
+    {
+      "return": 4.0,
+      "length": 6365,
+      "frames": 25458
+    },
+    {
+      "return": -15.0,
+      "length": 4615,
+      "frames": 18457
+    },
+    {
+      "return": -12.0,
+      "length": 5073,
+      "frames": 20290
+    },
+    {
+      "return": -5.0,
+      "length": 7248,
+      "frames": 28989
+    },
+    {
+      "return": -9.0,
+      "length": 6017,
+      "frames": 24065
+    },
+    {
+      "return": -3.0,
+      "length": 7105,
+      "frames": 28420
+    },
+    {
+      "return": -6.0,
+      "length": 7968,
+      "frames": 31870
+    },
+    {
+      "return": -2.0,
+      "length": 6565,
+      "frames": 26257
+    },
+    {
+      "return": -3.0,
+      "length": 7333,
+      "frames": 29331
+    },
+    {
+      "return": 3.0,
+      "length": 6397,
+      "frames": 25585
+    },
+    {
+      "return": -3.0,
+      "length": 7434,
+      "frames": 29735
+    }
+  ]
+}
